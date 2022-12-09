@@ -1,7 +1,7 @@
 {
   "name": "lokka-transport-jwt-auth",
-  "version": "1.3.2",
-  "description": "HTTP transport for Lokka with JWT authentication",
+  "version": "2.0.0",
+  "description": "(Sonrai Managed) HTTP transport for Lokka with JWT authentication",
   "main": "dist/",
   "options": {
     "mocha": "--require scripts/mocha_runner src/**/__tests__/**/*.js"
@@ -16,22 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kadirahq/lokka-transport-jwt-auth.git"
+    "url": "git@github.com:joshua-bell-sonrai/lokka-transport-jwt-auth.git"
   },
   "keywords": [
     "lokka"
   ],
   "author": "Kadira Inc.",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kadirahq/lokka-transport-jwt-auth/issues"
-  },
-  "homepage": "https://github.com/kadirahq/lokka-transport-jwt-auth#readme",
   "dependencies": {
     "babel-polyfill": "^6.7.2",
     "lokka": "^1.6.1",
     "lokka-transport-http": "^1.3.2",
-    "jsonwebtoken": "^5.7.0"
+    "jsonwebtoken": "^8.5.1"
   },
   "devDependencies": {
     "nodemon": "1.7.x",
@@ -46,5 +42,11 @@
     "babel-preset-es2015": "6.x.x",
     "babel-preset-stage-2": "6.x.x",
     "babel-plugin-transform-runtime": "6.x.x"
-  }
+  },
+  "contributors": [
+    {
+      "name": "Joshua Bell",
+      "email": "joshua.bell@sonraisecurity.com"
+    }
+  ]
 }
